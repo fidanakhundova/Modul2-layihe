@@ -20,16 +20,26 @@
         <i class="fa-solid fa-arrow-down-short-wide"></i>
     </div>
     <div class="search">
-        <div class="x">
-        <i class="fa-regular fa-circle-xmark"></i></div>
-    </div>
+        <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn"><i class="fa-regular fa-circle-xmark"></i></div></span>
+        
     <div class="purple">
-        <p class="plus">+</p>
-        <button>Add</button>
+        <p onclick="newElement()" class="plus">+</p>
+        <button onclick="newElement()" class="button">Add</button>
         
     </div>
 </div>
 </div>
+
+<ul id="myUL">
+    <li>Hit the gym</li>
+    <li class="checked">Pay bills</li>
+    <li>Meet George</li>
+    <li>Buy eggs</li>
+    <li>Read a book</li>
+    <li>Organize office</li>
+  </ul>
+  
 <script src="./project.js"></script>
 </body>
 </html>
