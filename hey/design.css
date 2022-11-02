@@ -8,7 +8,7 @@
 
 .main {
     width: 300px;
-    height: 300px;
+    min-height: 300px;
     border: 2px solid rgb(170, 166, 166);
     border-radius: 10px;
 }
@@ -35,7 +35,8 @@
 button{
     background: #833AE0;
     color:antiquewhite;
-    border: #833AE0
+    border: #833AE0;
+    border-radius: 35px;
 
 }
 .search{
@@ -67,6 +68,7 @@ button{
     align-items: flex-start;
     border: 2px ;
     border-radius: 70px;
+    cursor: pointer;
 
 }
 .sorting{
@@ -75,5 +77,24 @@ button{
 
 
 .addBtn{
- margin-right: 5px;
+ margin-right: 20px;
 }
+.list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.remove{
+    justify-content: flex-end;
+    color:rgb(209, 205, 205)
+}
+.list{
+    margin-left: 30px;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+  }
+
+  
